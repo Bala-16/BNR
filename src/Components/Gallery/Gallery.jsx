@@ -9,11 +9,7 @@ import BB from "../../assets/service/usilampatti/BB.mp4";
 import AAA from "../../assets/service/kovilpatti/AAA.jpg";
 import BBB from "../../assets/service/usilampatti/BBB.jpg";
 
-import CCC from "../../assets/service/natham/CCC.JPG";
-import C1 from "../../assets/service/natham/C1.JPG";
-import C2 from "../../assets/service/natham/C2.JPG";
-import C3 from "../../assets/service/natham/C3.JPG";
-import C4 from "../../assets/service/natham/C4.JPG";
+
 
 import DDD from "../../assets/service/ramnadu/DDD.jpg"
 import D1 from "../../assets/service/ramnadu/D1.jpg"
@@ -109,22 +105,7 @@ export default function Gallery() {
       ],
     },
 
-    natham: {
-      title: "Natham",
-      sites: [
-        {
-          siteTitle: "Steel & Poultry Projects",
-          subtitle: "Steel, roofing & poultry farm fabrication projects",
-          preview: CCC,
-          media: [
-            { type: "image", src: C1 },
-            { type: "image", src: C2 },
-            { type: "image", src: C3 },
-            { type: "image", src: C4 },
-          ],
-        },
-      ],
-    },
+  
     Trichy: {
       title: "Trichy",
       sites: [
