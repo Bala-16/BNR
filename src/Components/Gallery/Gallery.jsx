@@ -341,7 +341,7 @@ export default function Gallery() {
                 <div
                   key={key}
                   onClick={() => setActiveDistrict(key)}
-                  className="relative min-w-[200px] md:min-w-[280px] h-[240px] md:h-[300px] rounded-xl overflow-hidden shadow-lg cursor-pointer group"
+                  className="relative min-w-[200px] md:min-w-[280px]  md:h-[300px] rounded-xl overflow-hidden shadow-lg cursor-pointer group"
                 >
                   <img
                     src={d.sites[0].preview}
